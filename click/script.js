@@ -14,7 +14,6 @@ function buyuser(){
 
     money = money - 5;
     document.getElementById("money").value = money;
-    alert("已購買 小孩很好吃");
     click = click + 1;
     document.getElementById("click_money").value = click;
     return;
@@ -28,7 +27,7 @@ function buyuser67(){
 
     money = money - 67;
     document.getElementById("money").value = money;
-    alert("six seven!!!!!!")
+    alert("six seven!!!!")
     click = click + 67;
     document.getElementById("click_money").value = click;
     return;
@@ -42,7 +41,6 @@ function buy(){
     
     money = money - 20;
     document.getElementById("money").value = money;
-    alert("已購買 小孩很好吃");
     
     setInterval(function(){
         money = money + 1;
